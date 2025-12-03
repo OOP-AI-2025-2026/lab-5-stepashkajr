@@ -21,6 +21,10 @@ public class PaintSurface extends JComponent {
     // Список фігур, які намальовані на поверхні
     private final List<DrawShape> shapes = new ArrayList<>();
 
+    public void clearList(){
+        shapes.clear();
+    }
+
     // Тип поточної фігури
     private int shapeType;
 
